@@ -5,6 +5,7 @@
 # If our input was [3, 2, 1], the expected output would be [2, 3, 6].
 
 def add_list(mylist):
+    reslist = []
     for x in mylist:
         res = 1
         i = 0
@@ -12,9 +13,11 @@ def add_list(mylist):
             if mylist.index(x) != i:
                 res = y * res
             i = i + 1
-
-        print(res)
+        reslist.append(res)
+    print(reslist)
 
 
 if __name__ == '__main__':
     add_list([1, 2, 3, 4, 5])
+    
+# Output : [120, 60, 40, 30, 24]
