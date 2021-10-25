@@ -19,5 +19,7 @@ def add_list(mylist):
 
 if __name__ == '__main__':
     add_list([1, 2, 3, 4, 5])
+    add_list([3, 2, 1])
     
 # Output : [120, 60, 40, 30, 24]
+           [2, 3, 6]
