@@ -1,2 +1,0 @@
-# exercises
- daily coding problems
