@@ -11,3 +11,5 @@ def add_list(list,k):
 
 if __name__ == '__main__':
     add_list([10, 13, 15, 7],17)
+  
+#Output : 10 + 7 = 17
