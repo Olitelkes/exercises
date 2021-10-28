@@ -26,3 +26,6 @@ def find_missing_int_pos(mylist):
 if __name__ == '__main__':
     find_missing_int_pos([3, 4, -1, 1])
     find_missing_int_pos([1, 2, 0])
+
+# Output : 2
+#          3
